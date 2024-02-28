@@ -5,7 +5,7 @@ This project focuses on predicting the probabilities of individuals receiving H1
 
 
 ## Model Used
-BaggingClassifier with XGBoostClassifier as the base estimator
+BaggingClassifier with XGBoostClassifier as the base estimator.
 ## Key Points
 1. Addressed class imbalance
 2. Two separate models are instantiated using  BaggingClassifier with XGBoostClassifier as the base estimator for each target variable.
