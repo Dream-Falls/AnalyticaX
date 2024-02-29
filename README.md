@@ -9,12 +9,12 @@ This project focuses on predicting the probabilities of individuals receiving H1
 ## Model Used
 BaggingClassifier with XGBoostClassifier as the base estimator
 ## Key Points
-* Addressed class imbalance
-* Two separate models are instantiated using  BaggingClassifier with XGBoostClassifier as the base estimator for each target variable.
+* Tackled the feature columns' missing values.
+* Addressed the taget variables' class imbalance. 
+* Two separate models are instantiated using BaggingClassifier with XGBoostClassifier as the base estimator for each target variable.
 * Implemented hyperparameter tuning using Stratified RandomizedSearchCV and Stratified GridSearchCV.
 * The best hyperparameters are directly used in the [code](https://github.com/Dream-Falls/AnalyticaX/blob/main/Source_code.py).
-* Utilizes ROC AUC for evaluation within each model.
-  Additionally, we calculate an overall ROC AUC by    combining both models' predictions, providing a comprehensive assessment of performance.
+* Utilizes ROC AUC for evaluation within each model. Additionally, we calculated an overall ROC AUC by combining both models' predictions, providing a comprehensive assessment of performance.
 ## Results
 The mean ROC AUC scores for each target variable and the overall score are summarized below:
    *  H1N1 vaccine: Mean ROC AUC score = 0.8415
