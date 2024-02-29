@@ -15,6 +15,15 @@ BaggingClassifier with XGBoostClassifier as the base estimator
 * Utilizes ROC AUC for evaluation within each model.
   Additionally, we calculate an overall ROC AUC by    combining both models' predictions, providing a comprehensive assessment of performance.
 ## Results
+The mean ROC AUC scores for each target variable and the overall score are summarized below:
+   *  H1N1 vaccine: Mean ROC AUC score = 0.8415
+   * Seasonal vaccine: Mean ROC AUC score = 0.8588
+   * Overall ROC AUC score = 0.8501
+
+   
+          ![g14](https://github.com/Dream-Falls/AnalyticaX/assets/160475509/4ad93b4d-1aeb-456b-a1a9-891be64d16e7)
+
+
 The predicted probabilities for the two target variables of the 'test_set_features' dataset are stored [here](https://github.com/Dream-Falls/AnalyticaX/blob/main/results.csv).
 
 ## Report
