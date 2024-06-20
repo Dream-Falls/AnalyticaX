@@ -2,7 +2,7 @@
 
 #  Predicting Probabilities of  H1N1 and Seasonal Vaccination Uptake
 
-This project focuses on predicting the probabilities of individuals receiving H1N1 and seasonal influenza vaccinations using machine learning techniques. It leverages data from the 2009 National H1N1 Flu Survey (NHFS) conducted by CDC. The goal is  to inform public health strategies and improve vaccine uptake rates.
+This project tackled the challenge of predicting the probabilities of individuals receiving H1N1 and seasonal influenza vaccinations using machine learning techniques. Leveraging data from the 2009 National H1N1 Flu Survey (NHFS) conducted by CDC, this project aimed to inform public health strategies and improve vaccine uptake rates. Notably, it achieved recognition by winning **2nd place** at **AnalyticaX**, a hackathon-style competition organized by IIT Indore during Fluxus'24.
 
 
 
